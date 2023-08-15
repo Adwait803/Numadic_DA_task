@@ -17,10 +17,10 @@ Install the required dependencies by running the following command:
 
 pip install fastapi uvicorn pandas haversine tqdm
 
-Place your trip data CSV file named Trip-Info.csv in the project directory.
+Place your trip data CSV file named Trip-Info.csv in the project directory.(Or change path in the file_path variable)
 
 Organize your vehicle trail CSV files in the test/EOL-dump directory. Each CSV file should contain GPS coordinates and other relevant data for the vehicles.
-or Just change the path in the code 
+or Just change the path in the code (csv_directory variable)
 
 Run the API using the following command:
 
@@ -55,8 +55,10 @@ Enter the start_time and end_time parameters to specify the desired time range.
 Click "Try it out!" and then "Execute".
 The API will return an Excel file containing the asset report for the specified time range.
 If using main_ver2.py
+
 Run:
-python your_script_name.py --csv path/to/csv_file --csv_directory path/to/directory
+
+python3 main_ver2.py --csv path/to/csv_file --csv_directory path/to/directory
 
 
 
