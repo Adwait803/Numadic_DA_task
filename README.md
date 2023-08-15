@@ -15,7 +15,7 @@ Number of speed violations
 Install the required dependencies by running the following command:
 
 
-pip install fastapi uvicorn pandas haversine tqdm
+pip install fastapi uvicorn pandas haversine tqdm openpyxl
 
 Place your trip data CSV file named Trip-Info.csv in the project directory.(Or change path in the file_path variable)
 
